@@ -1,0 +1,184 @@
+body{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    gap: 618px;
+    padding: 16px 64px;
+    height: 72px;
+    width: 100%;
+}
+
+header> img{
+    width: 80px;
+    height: 40px;
+}
+
+.link-and-button{
+    display: flex;
+    
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
+}
+
+.link-and-button > nav{
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 32px;
+    gap: 32px;
+    align-items: center;
+}
+
+.link-button {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.two-buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.two-buttons > button{
+    width: 88px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.black-button > button{
+    width: 88px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 112px;
+   
+}
+
+.itens{
+    display: flex;
+    flex-direction: column;
+    margin-right: 512px;
+    margin-bottom: 80px;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.texts > h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+ .texts > p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-right: 255px;
+}
+
+input{
+    border: 1px solid black;
+    width: 396px;
+    height: 48px;
+    padding: 12px 12px;
+}
+
+.email{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.email > button{
+   width: 101px;
+   height: 48px;
+   background-color: black;
+   color: white;
+}
+
+.sign-up > p{
+font-size: 12px;
+}
+span{
+font-size: 12px;
+text-decoration: underline;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 64px;
+}
+
+.logo-link{
+    display: flex;
+    margin-left: 400px;
+    margin-right: 400px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.logo-link > img{
+    width: 84px;
+    height: 36px;
+}
+
+.five-links > nav{
+display: flex;
+justify-content: space-around;
+gap: 32px;
+margin-left: 29.5px;
+margin-right: 29.5px;
+font-weight: 600;
+
+}
+
+hr{
+    border: 1px solid black;
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
+
+.relume{
+    display: flex;
+    font-size: 14px;
+}
+
+.privacy{
+    display: flex;
+  margin-left: 715px;
+  justify-content: space-between;
+  gap: 24px;
+  text-decoration: underline;
+  
+}
+
+
+
