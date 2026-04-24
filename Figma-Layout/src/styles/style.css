@@ -9,10 +9,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    gap: 618px;
     padding: 16px 64px;
-    height: 72px;
-    width: 100%;
 }
 
 header> img{
@@ -25,14 +22,10 @@ header> img{
     
     justify-content: space-between;
     gap: 32px;
-    align-items: center;
 }
 
 .link-and-button > nav{
     display: flex;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    margin-right: 32px;
     gap: 32px;
     align-items: center;
 }
